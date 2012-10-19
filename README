@@ -1,14 +1,18 @@
 coursera-scrape
 By Sean Yeh
 
-Just a simple ruby script made for myself to download all the video lectures of my classes on
-www.coursera.org. Feel free to modify it for your own needs.
+Just a simple ruby script made for myself to download all the video lectures of my classes on www.coursera.org. Feel free to modify it for your own needs.
 
 Dependencies:
 watir-webdriver ruby gem
-chromedriver (download/install from
-http://code.google.com/p/selenium/wiki/ChromeDriver)
+Google chrome 
+chromedriver (download/install from http://code.google.com/p/selenium/wiki/ChromeDriver)
 aria2 (or wget)
+
+Instead of using Chrome (and chromedriver) it is possible to use other browsers
+as well. See http://watirwebdriver.com for more information on the other
+browsers watir-webdriver supports. You will probably
+have to modify the coursera-scrape source a little.
 
 Has only been tested on Mac OS X, but should work easily with other systems
 with minor changes.

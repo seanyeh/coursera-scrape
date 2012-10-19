@@ -1,3 +1,7 @@
+# coursera-scrape
+# By Sean Yeh
+
+
 require "FileUtils"
 require "watir-webdriver"
 
